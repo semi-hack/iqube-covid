@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  display: flex;
 }
 
 .App-logo {
@@ -35,4 +35,63 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+button{
+  padding: .6rem 1.2rem;
+  border: none;
+  outline: none;
+  background-color: #61dafb;
+  font: 700;
+  color: black;
+  margin: 1rem .6rem;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all .2s;
+}
+
+button:hover{
+  background-color: #282c34;
+  color: white;
+}
+
+.states, .details{
+  display: flex;
+  width: 50%;
+  padding: 1rem
+}
+
+.details{
+  flex-direction: column;
+  ;
+}
+
+.states{
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+}
+
+h3{
+  margin-bottom: 2rem;
+}
+
+h1{
+  margin-bottom: 1rem;
+}
+
+.cc{
+  color: rgb(82, 255, 3)
+}
+
+.coa{
+  color: rgb(235, 20, 170)
+}
+
+.di{
+  color: darkorange
+}
+
+.d{
+  color: red
 }
